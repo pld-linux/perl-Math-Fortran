@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla Math::Fortran
 Name:		perl-Math-Fortran
 Version:	0.01
 Release:	9
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b9369eaa198ba8eab337e90e57f273dc
