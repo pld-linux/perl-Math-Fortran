@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	Fortran
+%define		pdir	Math
+%define		pnam	Fortran
 Summary:	Math::Fortran perl module
 Summary(pl):	Modu³ perla Math::Fortran
 Name:		perl-Math-Fortran
