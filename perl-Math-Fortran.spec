@@ -34,14 +34,8 @@ perl Makefile.PL
 rm -rf $RPM_BUILD_ROOT
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-(
-  cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/Math/Fortran
-  sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
-)
 
-gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/* \
-        README
+gzip -9nf README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
