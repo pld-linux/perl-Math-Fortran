@@ -4,11 +4,11 @@ Summary(pl):	Modu³ perla Math-Fortran
 Name:		perl-Math-Fortran
 Version:	0.01
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Math/Math-Fortran-%{version}.tar.gz
-Patch:		perl-Math-Fortran-man.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Math/Math-Fortran-%{version}.tar.gz
+Patch0:		perl-Math-Fortran-man.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -19,7 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Math-Fortran - Perl implimentations of Fortrans sign and log10.
 
 %description -l pl
-Math-Fortran dostarcza dwóch funkcji pochodz±cych z Fortrana: sign i log10.
+Math-Fortran dostarcza dwóch funkcji pochodz±cych z Fortrana: sign i
+log10.
 
 %prep
 %setup -q -n Math-Fortran-%{version}
