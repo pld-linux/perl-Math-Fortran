@@ -5,7 +5,7 @@ Summary:	Math::Fortran perl module
 Summary(pl):	Modu³ perla Math::Fortran
 Name:		perl-Math-Fortran
 Version:	0.01
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
