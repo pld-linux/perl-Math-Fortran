@@ -1,0 +1,8 @@
+--- Fortran.pm~	Tue Dec 26 10:59:29 1995
++++ Fortran.pm	Sun Oct 17 01:53:43 1999
+@@ -1,4 +1,5 @@
+ # $Id$
++
+ =head1 NAME
+ 
+     Math::Fortran - Perl implimentations of Fortrans sign and log10
