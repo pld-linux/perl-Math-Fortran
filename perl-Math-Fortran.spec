@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	Fortran
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math-Fortran perl module
 Summary(pl):	Modu³ perla Math-Fortran
 Name:		perl-Math-Fortran
 Version:	0.01
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Math-Fortran dostarcza dwóch funkcji pochodz±cych z Fortrana: sign i
 log10.
 
 %prep
-%setup -q -n Math-Fortran-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p0
 
 %build
