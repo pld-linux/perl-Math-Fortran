@@ -2,7 +2,7 @@
 %define		pdir	Math
 %define		pnam	Fortran
 Summary:	Math::Fortran perl module
-Summary(pl):	Modu³ perla Math::Fortran
+Summary(pl.UTF-8):   ModuÅ‚ perla Math::Fortran
 Name:		perl-Math-Fortran
 Version:	0.01
 Release:	10
@@ -20,8 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Math::Fortran - Perl implimentations of Fortrans sign and log10.
 
-%description -l pl
-Math::Fortran dostarcza dwóch funkcji pochodz±cych z Fortrana: sign i
+%description -l pl.UTF-8
+Math::Fortran dostarcza dwÃ³ch funkcji pochodzÄ…cych z Fortrana: sign i
 log10.
 
 %prep
