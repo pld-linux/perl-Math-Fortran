@@ -2,7 +2,7 @@
 %define		pdir	Math
 %define		pnam	Fortran
 Summary:	Math::Fortran perl module
-Summary(pl.UTF-8):   Moduł perla Math::Fortran
+Summary(pl.UTF-8):	Moduł perla Math::Fortran
 Name:		perl-Math-Fortran
 Version:	0.01
 Release:	10
