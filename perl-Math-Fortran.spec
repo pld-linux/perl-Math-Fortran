@@ -28,7 +28,7 @@ log10.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch0 -p0
+%patch0 -p1
 
 %build
 %{__perl} Makefile.PL \

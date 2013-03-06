@@ -1,7 +1,7 @@
---- Fortran.pm~	Tue Dec 26 10:59:29 1995
-+++ Fortran.pm	Sun Oct 17 01:53:43 1999
+--- Math-Fortran-0.01/Fortran.pm.orig	1995-12-26 10:59:29.000000000 +0100
++++ Math-Fortran-0.01/Fortran.pm	2013-03-06 21:29:52.386038547 +0100
 @@ -1,4 +1,5 @@
- # $Id$
+ # $Id: Fortran.pm,v 1.1 1995/12/26 09:43:01 willijar Exp $
 +
  =head1 NAME
  
