@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Math
 %define		pnam	Fortran
 Summary:	Math::Fortran - Perl implementations of Fortrans sign and log10.
