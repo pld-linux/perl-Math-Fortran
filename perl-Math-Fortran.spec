@@ -4,7 +4,7 @@ Summary:	Math::Fortran - Perl implementations of Fortrans sign and log10.
 Summary(pl.UTF-8):	Math::Fortran - perlowe implementacje funkcji Fortranu sign i log10
 Name:		perl-Math-Fortran
 Version:	0.01
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
